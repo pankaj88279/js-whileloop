@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <ul id="car"></ul>
+        <script>
+            
+            let entername=prompt('enter your car name')
+                console.log(entername)
+            let enternumber=prompt('enter your greet number')
+                console.log(enternumber)
+               let n=parseInt(enternumber)
+                console.log(n)
+            let car=["BMW","SPORTS","MARUTI","HUNDAI"]
+            let x=document.getElementById('car');
+            let i=4;
+            do{
+                x.innerHTML=`<li>HI ${car}</li>`;
+                i++;
+            }while(i<=n);
+        </script>
+    </body>
+</html>
